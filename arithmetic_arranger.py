@@ -12,7 +12,6 @@ def arithmetic_arranger(problems, solve = False):
     top = str(first).rjust(length)
     bottom = second + str(third).rjust(length-1)
     if first.isnumeric() != True or third.isnumeric()!= True:
-      
       return "Error: Numbers must only contain digits."
     if len(str(first)) >= 5 or len(str(third))>= 5:
       return "Error: Numbers cannot be more than four digits."
